@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="477.0" prefWidth="525.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.tasvsstudents.HelloController">
+   <children>
+      <ImageView fitHeight="477.0" fitWidth="590.0" layoutX="1.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@rawsd.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="203.0" layoutY="96.0" mnemonicParsing="false" onMouseClicked="#playButtonClick" prefHeight="50.0" prefWidth="118.0" style="-fx-background-color: #419996; -fx-background-radius: 15;" text="Play">
+         <font>
+            <Font name="Bernard MT Condensed" size="29.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.07058823853731155" green="0.1882352977991104" blue="0.16470588743686676" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.06666667014360428" green="0.18039216101169586" blue="0.1568627506494522" opacity="0.17000000178813934" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Button>
+      <Button layoutX="321.0" layoutY="44.0" mnemonicParsing="false" onMouseClicked="#saveButtonClick" prefHeight="26.0" prefWidth="95.0" style="-fx-background-color: #419996; -fx-background-radius: 15;" text="Save">
+         <font>
+            <Font name="Bodoni MT Black" size="16.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.07058823853731155" green="0.1882352977991104" blue="0.16470588743686676" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.066600002348423" green="0.18000000715255737" blue="0.15543000400066376" opacity="0.3229483366012573" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Button>
+      <Button layoutX="415.0" layoutY="426.0" mnemonicParsing="false" onMouseClicked="#exitButtonClick" prefHeight="26.0" prefWidth="95.0" style="-fx-background-color: #419996; -fx-background-radius: 15;" text="Exit">
+         <font>
+            <Font name="Bodoni MT Black" size="15.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.07058823853731155" green="0.1882352977991104" blue="0.16470588743686676" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.066600002348423" green="0.18000000715255737" blue="0.15543000400066376" opacity="0.30775076150894165" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Button>
+      <Label layoutX="23.0" layoutY="14.0" prefHeight="43.0" prefWidth="307.0" text="Students vs TAs">
+         <font>
+            <Font name="Gloucester MT Extra Condensed" size="45.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
